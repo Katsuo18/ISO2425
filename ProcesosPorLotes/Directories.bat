@@ -36,6 +36,6 @@ mkdir ramonam
 pause 
 exit 
 :Copiar
-xcopy /s C:\Users\alumno C:\Users\alumno\Desktop
+xcopy /e C:\Users\alumno C:\Copia
 pause 
 exit
