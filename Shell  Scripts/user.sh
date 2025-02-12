@@ -23,4 +23,4 @@ while read user x uid gid d h shell; do
 done < /etc/passwd
 echo "Total: $total usuarios"
 echo "======================================================"
-echo "$dia - $hora - El usuario    ha solicitado un informe de usuario " >> /tmp/logeventos
+echo "$dia - $hora - El usuario $USER   ha solicitado un informe de usuario " >> /tmp/logeventos
